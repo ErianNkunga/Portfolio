@@ -1,0 +1,54 @@
+*
+{
+margin: 0%;
+padding: 0%;
+
+
+}
+
+.nav 
+  {
+    width: 100%;
+   
+    background-color:black;
+  }
+
+.begin 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+   
+
+    background-image: url(achtergrond.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+body {
+    color: #F7F7F7;
+}
+
+
+.over {
+  margin: 25px;
+    
+}
+
+.img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    margin: 25px;
+}
+
+a.nav-link{
+    color:white;
+    
+  }
